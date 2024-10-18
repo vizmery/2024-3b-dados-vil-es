@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+:root {
+    --fonte-titulo: "Libre Baskerville", serif;
+    --fonte-texto: "Vollkorn", serif;
+    --cor1: #dad7cdff;
+    --cor2: #a3b18aff;
+    --cor3: #588157ff;
+    --cor4: #3a5a40ff;
+    --cor5: #344e41ff;
+}
