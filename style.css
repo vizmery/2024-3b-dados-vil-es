@@ -13,4 +13,49 @@
     --cor3: #588157ff;
     --cor4: #3a5a40ff;
     --cor5: #344e41ff;
+    --cor6: #000000;
+}
+body{
+    font-family: var(--fonte-texto);
+    background-color: var(--cor3);
+    color: var(--cor6);
+    height: 100vh;
+}
+header{
+    background-color: var(--cor1);
+    text-align: center;
+}
+h1{
+    font-family: var(--fonte-titulo);
+    font-size: 2rem;
+    padding: 1.2rem0;
+    color: var(--cor6);
+}
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+nav a{
+    text-decoration: none;
+    color: var(--cor6);
+    margin: 0 2rem 2rem 0;
+    font-size: 1.5rem;
+}
+nav a:hover{
+    text-decoration: underline;
+    font-size: 1.7rem;
+    color: var(--cor4);
+    transition: 0.5s;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor5);
+    color: var(--cor6);
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+    padding: 1rem;
 }
