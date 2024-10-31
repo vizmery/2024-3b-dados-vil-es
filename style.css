@@ -28,7 +28,7 @@ header{
 h1{
     font-family: var(--fonte-titulo);
     font-size: 2rem;
-    padding: 1.2rem0;
+    padding: 1.4rem0;
     color: var(--cor6);
 }
 nav{
@@ -48,6 +48,19 @@ nav a:hover{
     color: var(--cor4);
     transition: 0.5s;
 }
+
+.caixa_grafico{
+    margin: 3rem;
+    border: 3px double var(--cor6);
+    background-color: var(--cor1);
+}
+
+.caixa_grafico_texto{
+    padding: 2em;
+    font-size: 1.3em;
+    text-align: center;
+}
+
 footer{
     display: flex;
     align-items: center;
@@ -58,4 +71,5 @@ footer{
     position: fixed;
     bottom: 0%;
     padding: 1rem;
+
 }
