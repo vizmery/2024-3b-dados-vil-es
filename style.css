@@ -49,13 +49,13 @@ nav a:hover{
     transition: 0.5s;
 }
 
-.caixa_grafico{
+.caixa-grafico{
     margin: 3rem;
     border: 3px double var(--cor6);
     background-color: var(--cor1);
 }
 
-.caixa_grafico_texto{
+.caixa-grafico_texto{
     padding: 2em;
     font-size: 1.3em;
     text-align: center;
